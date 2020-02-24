@@ -1,0 +1,89 @@
+{
+  "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3",
+  "extensions.ignoreRecommendations": false,
+  "python.linting.flake8Args": [
+      "--ignore=E501"
+  ],
+  "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "git.autofetch": true,
+  "ruby.lint": {
+      "rubocop": true,
+      "ruby": true, //Runs ruby -wc
+  },
+  "ruby.intellisense": "rubyLocate",
+  "ruby.lintDebounceTime": 500,
+  "window.zoomLevel": 0,
+  "[javascript]": {
+      "editor.detectIndentation": false,
+      "editor.tabSize": 2
+  },
+  "[python]": {
+      "editor.formatOnSave": true,
+      "files.insertFinalNewline": true
+  },
+  "[csharp]": {
+      "editor.formatOnSave": false,
+      "files.insertFinalNewline": false
+  },
+  "[ruby]": {
+      "editor.tabSize": 2
+  },
+  "go.autocompleteUnimportedPackages": true,
+  "go.toolsEnvVars": {
+      "GO111MODULE": "on"
+  },
+  "editor.quickSuggestionsDelay": 100,
+  "editor.tabCompletion": "on",
+  "[json]": {
+      "editor.tabSize": 2
+  },
+  "workbench.activityBar.visible": true,
+  "python.linting.pylintUseMinimalCheckers": false,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "none",
+  "python.linting.pylintEnabled": false,
+  "go.useLanguageServer": true,
+  "go.alternateTools": {
+      "go-langserver": "gopls"
+  },
+  "go.languageServerExperimentalFeatures": {
+      "format": true,
+      "autoComplete": true,
+      "rename": true,
+      "goToDefinition": true,
+      "hover": true,
+      "signatureHelp": true,
+      "goToTypeDefinition": true,
+      "goToImplementation": true,
+      "documentSymbols": true,
+      "workspaceSymbols": true,
+      "findReferences": true,
+      "diagnostics": false
+  },
+  "go.vetOnSave": "off",
+  "[go]": {
+      "editor.snippetSuggestions": "none",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+      },
+  },
+  // "gopls": {
+  //     "enablePlaceholders": true, // add parameter placeholders when completing a function
+  //     "enhancedHover": true,      // experimental to improve quality of hover (will be on by default soon)
+  // },
+  "vscode_custom_css.imports": [
+      "https://raw.githubusercontent.com/robb0wen/synthwave-vscode/master/synthwave84.css"
+  ],
+  "vscode_custom_css.policy": true,
+  "go.formatTool": "goimports",
+  "editor.fontWeight": "bold",
+  "[yaml]":  {
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.autoIndent": false
+}
+}
